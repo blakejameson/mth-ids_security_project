@@ -54,3 +54,31 @@ This recent study introduces a machine learning-based intrusion detection system
 Influence on this project:
   * **Advanced Techniques**: Incorporation of sophisticated data preprocessing and feature selection methods to improve detection performance.
   * **Model Optimization**: Application of hyperparameter optimization to refine machine learning models, reducing overfitting and enhancing generalization.
+
+# How To Run
+
+The first step is to install a version of Python that is 3.10 or later. While working on the project, some of us received warnings from certain libraries with utilizing a version prior to Python3.10.
+
+Depending on your OS and package manager, you will have commands to install an adequate Python version.
+
+After having Python3.10 or later installed, you will create a virtual environment. You may do so through the commmand:
+
+`python3 -m venv .venv` 
+
+Another likely option is that your IDE comes equipped with the ability to create a virtual environment.
+
+After creating a virtaul environment, make sure it is activated with the command:
+
+`source .venv/bin/activate`
+
+Another option would be to utilize your IDE to select your virtual environment.
+
+Now with your virtual environment activated, enter the command:
+
+`pip3 install -r requirements.txt` to install all neccesary packages.
+
+With all packages installed, click on the file titled 'MTH_IDS_IoTJ_updated.ipynb'. Click 'Select Kernel', then click 'Python Environments', then click on the .venv that it recommends.
+
+You are now able to go ahead and run the file. You can either click on the option 'Run All' or individually click on the run button to the left of the cell. Something to note when using this file is that the commands should be run consecutively as opposed to clicking cells lower then cells higher.
+
+
