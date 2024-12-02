@@ -34,8 +34,6 @@ In this project, we focused on analyzing and detecting various types of attacks 
      - **DoS Hulk**
      - **DoS Slowloris**
      - **DoS Slow-httptest**
-   - **Original Dataset Size:** 380,699 samples.
-   - **Balanced Training Samples:** 266,489 samples.
 
 2. **Distributed Denial of Service (DDoS):**
    - A coordinated attack involving multiple compromised systems targeting a single network or server.
@@ -45,22 +43,16 @@ In this project, we focused on analyzing and detecting various types of attacks 
      - **DDoS MSSQL**
      - **DDoS NetBIOS**
      - **DDoS UDP**
-   - **Original Dataset Size:** 1,966 samples.
-   - **Balanced Training Samples:** 100,000 samples.
 
 3. **Port Scanning:**
    - A reconnaissance technique used to find open ports and services running on a network.
    - **Attack Type:** Sniffing.
-   - **Original Dataset Size:** 158,930 samples.
-   - **Balanced Training Samples:** 111,251 samples.
 
 4. **Brute Force Attacks:**
    - An attack method to gain unauthorized access by systematically trying combinations of usernames and passwords.
    - **Subcategories:**
      - **SSH-Patator**
      - **FTP-Patator**
-   - **Original Dataset Size:** 13,835 samples.
-   - **Balanced Training Samples:** 100,000 samples.
 
 5. **Web Attacks:**
    - Exploits targeting web applications, typically involving malicious HTTP requests.
@@ -68,23 +60,15 @@ In this project, we focused on analyzing and detecting various types of attacks 
      - **Web Attack – Brute Force**
      - **Web Attack – SQL Injection**
      - **Web Attack – XSS (Cross-Site Scripting)**
-   - **Original Dataset Size:** 2,180 samples.
-   - **Balanced Training Samples:** 100,000 samples.
 
 6. **Infiltration:**
    - A sophisticated attack where an intruder gains access to a network and remains undetected.
-   - **Original Dataset Size:** 36 samples.
-   - **Balanced Training Samples:** 100,000 samples.
 
 7. **Botnet:**
    - A network of infected computers controlled remotely to perform coordinated malicious activities.
-   - **Original Dataset Size:** 1,966 samples.
-   - **Balanced Training Samples:** 100,000 samples.
 
 8. **Benign Traffic:**
    - Normal network traffic used to simulate legitimate user behavior and ensure a balanced dataset.
-   - **Original Dataset Size:** 2,273,097 samples.
-   - **Balanced Training Samples:** 1,591,168 samples.
 
 # Machine Learning Models
 This research makes use of 4 models that were likely chosen because they are either ensemble-based or tree-based models that have unique strengths for handling classification tasks, particularly in intrusion detection systems.
