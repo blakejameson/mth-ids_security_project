@@ -37,14 +37,14 @@ This research makes use of 4 models that were likely chosen because they are eit
 * XGBoost
   * XGBoost is a gradient boosting algorithm that builds trees sequentially, where each tree corrects the errors made by the previous ones. It optimizes a loss function using gradient descent. It works well with unbalanced datasets and can capture complex patterns, which are common in network traffic data used in IDS.
 
-Foundational Research:
+# Foundational Research
 "Data-Driven Intrusion Detection for Intelligent Internet of Vehicles: A Deep Convolutional Neural Network-Based Method" by Laisen Nie, Zhaolong Ning, Xiaojie Wang, Xiping Hu, Jun Cheng, and Yongkang Li (2020).
 
 This seminal work employs a Deep Convolutional Neural Network (CNN) to analyze link load behaviors of Road Side Units (RSUs) in the IoV, effectively detecting intrusions by identifying irregular traffic flow patterns. The methodology provides a robust framework for understanding and mitigating cyber threats in vehicular networks.
 
 Influence on this project:
-  * Methodology Adoption: The use of deep learning techniques for intrusion detection in IoV environments has been instrumental in shaping our approach.
-  * Analytical Framework: The analysis of link load behaviors as indicators of potential intrusions has informed our data processing strategies.
+  * **Methodology Adoption**: The use of deep learning techniques for intrusion detection in IoV environments has been instrumental in shaping our approach.
+  * **Analytical Framework**: The analysis of link load behaviors as indicators of potential intrusions has informed our data processing strategies.
 
 Contemporary Piece:
 "Intrusion Detection System for Cyberattacks in the Internet of Vehicles Environment" by Mohamed Selim Korium, Mohamed Saber, Alexander Beattie, Arun Narayanan, Subham Sahoo, and Pedro H.J. Nardelli (2024).
@@ -52,5 +52,5 @@ Contemporary Piece:
 This recent study introduces a machine learning-based intrusion detection system tailored for the IoV environment, capable of identifying cyberattacks such as Denial-of-Service (DoS), Distributed Denial-of-Service (DDoS), and Brute Force attacks. It emphasizes data preprocessing, feature selection, and model optimization to enhance detection accuracy and efficiency.
 
 Influence on this project:
-  * Advanced Techniques: Incorporation of sophisticated data preprocessing and feature selection methods to improve detection performance.
-  * Model Optimization: Application of hyperparameter optimization to refine machine learning models, reducing overfitting and enhancing generalization.
+  * **Advanced Techniques**: Incorporation of sophisticated data preprocessing and feature selection methods to improve detection performance.
+  * **Model Optimization**: Application of hyperparameter optimization to refine machine learning models, reducing overfitting and enhancing generalization.
