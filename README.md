@@ -25,7 +25,8 @@ To achieve this, we utilized publicly available datasets, which contain labeled 
 
 # Types of Attacks
 
-In this project, we focused on analyzing and detecting various types of attacks from the CICIDS2017 dataset. These attacks target different vulnerabilities in networks and simulate real-world scenarios. Below are the attack categories studied:
+In this project, we focused on analyzing and detecting various types of attacks using an enhanced dataset that combined the CICIDS2017 and CICIDS2019 datasets. These datasets target different vulnerabilities in networks and simulate real-world scenarios. By integrating both datasets, we expanded the diversity of attack types to evaluate the IDS against a broader range of threats. Below are the attack categories studied:
+
 
 1. **Denial of Service (DoS):**
    - These attacks aim to overwhelm a network or system, making it unavailable to legitimate users.
